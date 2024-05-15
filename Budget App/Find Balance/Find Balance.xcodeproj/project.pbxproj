@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01F482362BF15B2A00D5663E /* Find_BalanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F482352BF15B2A00D5663E /* Find_BalanceApp.swift */; };
+		01F482382BF15B2A00D5663E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F482372BF15B2A00D5663E /* ContentView.swift */; };
+		01F4823A2BF15B2D00D5663E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F482392BF15B2D00D5663E /* Assets.xcassets */; };
+		01F4823E2BF15B2D00D5663E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F4823D2BF15B2D00D5663E /* Preview Assets.xcassets */; };
+		01F482482BF15B2E00D5663E /* Find_BalanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F482472BF15B2E00D5663E /* Find_BalanceTests.swift */; };
+		01F482522BF15B2E00D5663E /* Find_BalanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F482512BF15B2E00D5663E /* Find_BalanceUITests.swift */; };
+		01F482542BF15B2E00D5663E /* Find_BalanceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F482532BF15B2E00D5663E /* Find_BalanceUITestsLaunchTests.swift */; };
+		01F482612BF15E3500D5663E /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F482602BF15E3500D5663E /* WelcomePage.swift */; };
+		01F482632BF18A9C00D5663E /* financialInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F482622BF18A9C00D5663E /* financialInfo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01F482442BF15B2E00D5663E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01F4822A2BF15B2A00D5663E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01F482312BF15B2A00D5663E;
+			remoteInfo = "Find Balance";
+		};
+		01F4824E2BF15B2E00D5663E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01F4822A2BF15B2A00D5663E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01F482312BF15B2A00D5663E;
+			remoteInfo = "Find Balance";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01F482322BF15B2A00D5663E /* Find Balance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Find Balance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01F482352BF15B2A00D5663E /* Find_BalanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_BalanceApp.swift; sourceTree = "<group>"; };
+		01F482372BF15B2A00D5663E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		01F482392BF15B2D00D5663E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01F4823B2BF15B2D00D5663E /* Find_Balance.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Find_Balance.entitlements; sourceTree = "<group>"; };
+		01F4823D2BF15B2D00D5663E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		01F482432BF15B2E00D5663E /* Find BalanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find BalanceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01F482472BF15B2E00D5663E /* Find_BalanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_BalanceTests.swift; sourceTree = "<group>"; };
+		01F4824D2BF15B2E00D5663E /* Find BalanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find BalanceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01F482512BF15B2E00D5663E /* Find_BalanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_BalanceUITests.swift; sourceTree = "<group>"; };
+		01F482532BF15B2E00D5663E /* Find_BalanceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_BalanceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		01F482602BF15E3500D5663E /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
+		01F482622BF18A9C00D5663E /* financialInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = financialInfo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01F4822F2BF15B2A00D5663E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F482402BF15B2E00D5663E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F4824A2BF15B2E00D5663E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01F482292BF15B2A00D5663E = {
+			isa = PBXGroup;
+			children = (
+				01F482342BF15B2A00D5663E /* Find Balance */,
+				01F482462BF15B2E00D5663E /* Find BalanceTests */,
+				01F482502BF15B2E00D5663E /* Find BalanceUITests */,
+				01F482332BF15B2A00D5663E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01F482332BF15B2A00D5663E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01F482322BF15B2A00D5663E /* Find Balance.app */,
+				01F482432BF15B2E00D5663E /* Find BalanceTests.xctest */,
+				01F4824D2BF15B2E00D5663E /* Find BalanceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01F482342BF15B2A00D5663E /* Find Balance */ = {
+			isa = PBXGroup;
+			children = (
+				01F482352BF15B2A00D5663E /* Find_BalanceApp.swift */,
+				01F482372BF15B2A00D5663E /* ContentView.swift */,
+				01F482602BF15E3500D5663E /* WelcomePage.swift */,
+				01F482392BF15B2D00D5663E /* Assets.xcassets */,
+				01F4823B2BF15B2D00D5663E /* Find_Balance.entitlements */,
+				01F4823C2BF15B2D00D5663E /* Preview Content */,
+				01F482622BF18A9C00D5663E /* financialInfo.swift */,
+			);
+			path = "Find Balance";
+			sourceTree = "<group>";
+		};
+		01F4823C2BF15B2D00D5663E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				01F4823D2BF15B2D00D5663E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		01F482462BF15B2E00D5663E /* Find BalanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				01F482472BF15B2E00D5663E /* Find_BalanceTests.swift */,
+			);
+			path = "Find BalanceTests";
+			sourceTree = "<group>";
+		};
+		01F482502BF15B2E00D5663E /* Find BalanceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01F482512BF15B2E00D5663E /* Find_BalanceUITests.swift */,
+				01F482532BF15B2E00D5663E /* Find_BalanceUITestsLaunchTests.swift */,
+			);
+			path = "Find BalanceUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01F482312BF15B2A00D5663E /* Find Balance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01F482572BF15B2E00D5663E /* Build configuration list for PBXNativeTarget "Find Balance" */;
+			buildPhases = (
+				01F4822E2BF15B2A00D5663E /* Sources */,
+				01F4822F2BF15B2A00D5663E /* Frameworks */,
+				01F482302BF15B2A00D5663E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Find Balance";
+			productName = "Find Balance";
+			productReference = 01F482322BF15B2A00D5663E /* Find Balance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01F482422BF15B2E00D5663E /* Find BalanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01F4825A2BF15B2E00D5663E /* Build configuration list for PBXNativeTarget "Find BalanceTests" */;
+			buildPhases = (
+				01F4823F2BF15B2E00D5663E /* Sources */,
+				01F482402BF15B2E00D5663E /* Frameworks */,
+				01F482412BF15B2E00D5663E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01F482452BF15B2E00D5663E /* PBXTargetDependency */,
+			);
+			name = "Find BalanceTests";
+			productName = "Find BalanceTests";
+			productReference = 01F482432BF15B2E00D5663E /* Find BalanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01F4824C2BF15B2E00D5663E /* Find BalanceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01F4825D2BF15B2E00D5663E /* Build configuration list for PBXNativeTarget "Find BalanceUITests" */;
+			buildPhases = (
+				01F482492BF15B2E00D5663E /* Sources */,
+				01F4824A2BF15B2E00D5663E /* Frameworks */,
+				01F4824B2BF15B2E00D5663E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01F4824F2BF15B2E00D5663E /* PBXTargetDependency */,
+			);
+			name = "Find BalanceUITests";
+			productName = "Find BalanceUITests";
+			productReference = 01F4824D2BF15B2E00D5663E /* Find BalanceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01F4822A2BF15B2A00D5663E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					01F482312BF15B2A00D5663E = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					01F482422BF15B2E00D5663E = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 01F482312BF15B2A00D5663E;
+					};
+					01F4824C2BF15B2E00D5663E = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 01F482312BF15B2A00D5663E;
+					};
+				};
+			};
+			buildConfigurationList = 01F4822D2BF15B2A00D5663E /* Build configuration list for PBXProject "Find Balance" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01F482292BF15B2A00D5663E;
+			productRefGroup = 01F482332BF15B2A00D5663E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01F482312BF15B2A00D5663E /* Find Balance */,
+				01F482422BF15B2E00D5663E /* Find BalanceTests */,
+				01F4824C2BF15B2E00D5663E /* Find BalanceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01F482302BF15B2A00D5663E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F4823E2BF15B2D00D5663E /* Preview Assets.xcassets in Resources */,
+				01F4823A2BF15B2D00D5663E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F482412BF15B2E00D5663E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F4824B2BF15B2E00D5663E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01F4822E2BF15B2A00D5663E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F482612BF15E3500D5663E /* WelcomePage.swift in Sources */,
+				01F482382BF15B2A00D5663E /* ContentView.swift in Sources */,
+				01F482362BF15B2A00D5663E /* Find_BalanceApp.swift in Sources */,
+				01F482632BF18A9C00D5663E /* financialInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F4823F2BF15B2E00D5663E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F482482BF15B2E00D5663E /* Find_BalanceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F482492BF15B2E00D5663E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F482542BF15B2E00D5663E /* Find_BalanceUITestsLaunchTests.swift in Sources */,
+				01F482522BF15B2E00D5663E /* Find_BalanceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01F482452BF15B2E00D5663E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01F482312BF15B2A00D5663E /* Find Balance */;
+			targetProxy = 01F482442BF15B2E00D5663E /* PBXContainerItemProxy */;
+		};
+		01F4824F2BF15B2E00D5663E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01F482312BF15B2A00D5663E /* Find Balance */;
+			targetProxy = 01F4824E2BF15B2E00D5663E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01F482552BF15B2E00D5663E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01F482562BF15B2E00D5663E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		01F482582BF15B2E00D5663E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Find Balance/Find_Balance.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Find Balance/Preview Content\"";
+				DEVELOPMENT_TEAM = 8CHTBK7MBF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Abby.Find-Balance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01F482592BF15B2E00D5663E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Find Balance/Find_Balance.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Find Balance/Preview Content\"";
+				DEVELOPMENT_TEAM = 8CHTBK7MBF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Abby.Find-Balance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		01F4825B2BF15B2E00D5663E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8CHTBK7MBF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Abby.Find-BalanceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Find Balance.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Find Balance";
+			};
+			name = Debug;
+		};
+		01F4825C2BF15B2E00D5663E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8CHTBK7MBF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Abby.Find-BalanceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Find Balance.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Find Balance";
+			};
+			name = Release;
+		};
+		01F4825E2BF15B2E00D5663E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8CHTBK7MBF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Abby.Find-BalanceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Find Balance";
+			};
+			name = Debug;
+		};
+		01F4825F2BF15B2E00D5663E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8CHTBK7MBF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Abby.Find-BalanceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Find Balance";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01F4822D2BF15B2A00D5663E /* Build configuration list for PBXProject "Find Balance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F482552BF15B2E00D5663E /* Debug */,
+				01F482562BF15B2E00D5663E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01F482572BF15B2E00D5663E /* Build configuration list for PBXNativeTarget "Find Balance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F482582BF15B2E00D5663E /* Debug */,
+				01F482592BF15B2E00D5663E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01F4825A2BF15B2E00D5663E /* Build configuration list for PBXNativeTarget "Find BalanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F4825B2BF15B2E00D5663E /* Debug */,
+				01F4825C2BF15B2E00D5663E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01F4825D2BF15B2E00D5663E /* Build configuration list for PBXNativeTarget "Find BalanceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F4825E2BF15B2E00D5663E /* Debug */,
+				01F4825F2BF15B2E00D5663E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01F4822A2BF15B2A00D5663E /* Project object */;
+}
